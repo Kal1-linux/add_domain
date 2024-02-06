@@ -28,3 +28,5 @@ sudo ./add_dom.sh subdomian.yourdomain.com
 
 # to add new domain with ssl auto done with your port address 
 
+sudo ./add_domain.sh subdomain.yourdomain.com
+

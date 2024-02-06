@@ -2,7 +2,9 @@
 # Prerequisite : in route 53 add Aliases 
 
 #commands to install certbot nginx 
+
 #→Installation:
+
 sudo apt update
 sudo apt -y install nginx certbot python3-certbot-nginx 
 sudo systemctl enable nginx
@@ -11,6 +13,7 @@ sudo systemctl start nginx
 
 
 # For example : add this "A *.yourdomain.com" instead this "A site.xyz.com" 
+
 # to run this script there are two files 
 
 

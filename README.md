@@ -1,6 +1,7 @@
 # SSL AUTO creation script with certbot and nginx to add new domain in one click 
 
 # Prerequisite : in route 53 add Aliases 
+# For example : add this "A *.yourdomain.com" instead this "A site.xyz.com" 
 
 #commands to install certbot nginx 
 
@@ -16,7 +17,7 @@ sudo systemctl start nginx
 
 
 
-# For example : add this "A *.yourdomain.com" instead this "A site.xyz.com" 
+
 
 # to run this script there are two files 
 
